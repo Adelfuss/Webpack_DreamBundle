@@ -1,0 +1,12 @@
+@import "./another/another.css";
+$base-color: #c6538c;
+
+::placeholder {
+    color: gray;
+  }
+  
+body {
+    /* background-image: url('../img//1.png'); */
+    background-color:$base-color;
+    display: flex;
+}
